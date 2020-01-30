@@ -95,12 +95,9 @@ canvas {
   cursor: pointer;
 }
 
-  // Duration of inhale/exhale/hold
-//
+
 $interval: 4;
 
-// Anxiety Box
-//
 .anxiety-box {
   position: relative;
   box-sizing: border-box;
@@ -131,8 +128,6 @@ $interval: 4;
   }
 }
 
-// Anxiety Box Text and Dot
-//
 .anxiety-box {
   &__top, &__right, &__bottom, &__left {
     position: absolute;
@@ -217,8 +212,7 @@ $interval: 4;
   }
 }
 
-// Body styles
-//
+
 body {
   background: #f2f2f2;
   color: #2d2d2d;
@@ -235,8 +229,6 @@ body {
   }
 }
 
-// Description
-//
 .description {
   position: relative;
   max-width: 600px;
