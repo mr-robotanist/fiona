@@ -79,7 +79,7 @@ section:target h1 {
 }
 
 #third {
-    background: var(--contrast-color);
+    /* background: var(--contrast-color); */
 }
 
 #fourth {
