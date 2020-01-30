@@ -253,7 +253,7 @@ canvas {
   color: #dfbfbf;
   position: absolute;
   font-size: 75px;
-  margin: 15% 17%;
+  margin: 15% 21%;
   animation: glitch 5s 5s infinite;
 }
 .glitch::before, .glow::before {
