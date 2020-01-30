@@ -34,7 +34,7 @@ nav {
     justify-content: space-around;
     flex-direction: column;
     height: 100vh;
-    background: var(--secondary-color);
+    /*background: var(--secondary-color);*/
 }
 
 section {
