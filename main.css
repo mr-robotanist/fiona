@@ -516,3 +516,77 @@ canvas {
     transform: rotateX(0deg) skewX(0deg);
   }
 }
+
+@keyframes wave {
+   0% {
+     transform: rotate(0deg);
+  }
+   100% {
+     transform: rotate(360deg);
+  }
+}
+ @keyframes cycle {
+   0% {
+     background-position: 0% top;
+  }
+   100% {
+     background-position: 200% top;
+  }
+}
+
+ #container2 {
+   background-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+   background-size: 200%;
+   animation: cycle 15s infinite linear;
+   border-radius: 10%;
+   width: 100%;
+   height: 100%;
+   max-width: 50vw;
+   max-height: 50vw;
+   overflow: hidden;
+   position: relative;
+}
+ #container2:before, #container:after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+ #container2:before {
+   background-image: linear-gradient(to bottom, transparent, transparent, #000);
+}
+ .wave {
+   position: absolute;
+   top: -200%;
+   left: -50%;
+   border-radius: 35%;
+   width: 200%;
+   height: 255%;
+   animation: wave 15s infinite linear both;
+   z-index: 5;
+   will-change: transform;
+}
+ .wave:before, .wave:after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   border-radius: inherit;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+}
+ #wave1 {
+   background-image: linear-gradient(to bottom, #3cf, #dff);
+   filter: blur(12px);
+   will-change: filter;
+}
+ #wave2:before {
+   box-shadow: 0 0 6px #000 3, 0 0 64px 32px #fff;
+}
+ 
