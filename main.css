@@ -75,7 +75,7 @@ section:target h1 {
   /* background:var(--primary-color); */
 }
 #second {
-    background: var(--complimentary-color);
+    /*background: var(--complimentary-color);*/
 }
 
 #third {
