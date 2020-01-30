@@ -72,7 +72,14 @@ section:target h1 {
 }
 
 #first {
-  background:var(--primary-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3295693277) 0%, rgba(29, 49, 118, 0) 100%);
+  pointer-events: none;
 }
 #second {
     /*background: var(--complimentary-color);*/
