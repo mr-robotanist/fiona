@@ -75,7 +75,7 @@ section:target h1 {
   /* background:var(--primary-color); */
 }
 #second {
-    /* background: var(--complimentary-color); */
+    background: var(--complimentary-color);
 }
 
 #third {
@@ -98,7 +98,7 @@ canvas {
 
 $interval: 4;
 
-section .anxiety-box {
+.anxiety-box {
   position: relative;
   box-sizing: border-box;
   width: 250px;
@@ -128,7 +128,7 @@ section .anxiety-box {
   }
 }
 
-section .anxiety-box {
+.anxiety-box {
   &__top, &__right, &__bottom, &__left {
     position: absolute;
     font-weight: 700;
