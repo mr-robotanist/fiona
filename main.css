@@ -244,9 +244,9 @@ body:after {
 }
 .glitch, .glow {
   color: #dfbfbf;
-  position: relative;
-  font-size: 150px;
-  margin: 15% 17%;
+  position: absolute;
+  font-size: 75px;
+  /*margin: 15% 17%;*/
   animation: glitch 5s 5s infinite;
 }
 .glitch::before, .glow::before {
