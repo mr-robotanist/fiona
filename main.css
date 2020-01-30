@@ -198,11 +198,11 @@ canvas {
     left: -10px;
   }
 }
-body {
+.boxContainer {
   background: #f2f2f2;
   color: #2d2d2d;
 }
-body:after {
+.boxContainer:after {
   position: fixed;
   bottom: 0;
   left: 0;
