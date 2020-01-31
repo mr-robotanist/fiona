@@ -9851,8 +9851,7 @@ form .row:first-child .floating-label-form-group {
  .glitch, .glow {
 	 color: #dfbfbf;
 	 position: relative;
-	 font-size: 150px;
-	 margin: 15% 17%;
+	 font-size: 35px;
 	 animation: glitch 5s 5s infinite;
 }
  .glitch::before, .glow::before {
