@@ -1,0 +1,19 @@
+<svg width="1000" height="500" viewBox="0 200 500 500">
+  <g id="helicopter" transform="translate(0,0)">
+     <g transform="rotate(10 425.701 270.25)">
+       <path d="M452.992 256.303v4.547h-1.416l-2.435 9.914h8.814l-2.133-9.914h-1.312v-4.547zm1.252 27.766l-.695.475v2.377l-5.307.006a.858.858 0 000 1.716h23.242l.387-.1 3.096-1.7v-.006a.8.8 0 10-.795-1.385v-.004l-2.285 1.365-.412.113-4.934-.006v-2.318h-1.566v2.318h-9.854v-2.318z M425.701 270.25h42.348c8.82.017 10.296 13.596 0 14.352h-13.44c-4.794-.054-9.567-3.488-9.7-9.7l-20.315-2.173-1.944 3.617c-.443.672-1.027 1.005-1.8.881l.505-5.053v-2.43l-1.819-8.894c.921-.056 1.446.338 1.794.93z" style="fill:#121212"/>
+       <path id="blades" d="M481.292 257.313 H426.21 v3.032 l21.124 -.809 v-1.213 h12.835 v1.213 l21.124 .81z" style="fill:#aaaaaa;stroke-width:1px"/>
+        </g>
+    </g>
+  <animateTransform attributeName="transform" attributeType="XML" xlink:href="#helicopter" type="translate" from="-400" to="100" dur="25s" begin="0.5s" repeatCount="indefinite"/>
+</svg>
+<style>
+  #blades {
+transform-origin:center;
+transform-box:fill-box;
+animation: blades 0.15s  infinite;
+}
+@keyframes blades {
+100% {transform:rotateY(360deg);}
+}
+</style>
